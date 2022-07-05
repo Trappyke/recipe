@@ -1,2 +1,12 @@
-# recipe
-this website its based on providing meals cooking recipe
+# RECIPE
+
+## Introduction
+
+This website its based on providing meals cooking recipe
+
+## PAGES
+
+- Home
+- About
+- Contact Us
+- 
