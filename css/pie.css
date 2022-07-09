@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto 0.5em;
+    background-image: url(/assets/silverware.jpg);
+    background-repeat: round;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+header img,
+header ul,
+abbr,
+strike,
+span,
+a,
+.comment p {
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2 {
+    width: max-content;
+    color: #A4A400;
+    background-color: #c7c7c7;
+    font-family: 'Lucida Sans Unicode', Helvetica, Arial, sans-serif;
+    text-decoration: underline;
+    letter-spacing: 0.25em;
+}
+
+h1 {
+    margin-bottom: .5em;
+    padding: .5em 0;
+    font-size: 24px;
+}
+
+h2 {
+    margin: .3em 0;
+    padding: .2em 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+p,
+li,
+span,
+a {
+    color: #404040;
+    font-size: 11px;
+    font-family: Georgia, Geramond, serif;
+}
+
+.ingridients ul li,
+.directions ul li {
+    margin-left: 2.5em;
+    list-style: url(/assets/pie_icon.gif);
+}
+
+a {
+    color: #a4a400;
+}
+
+@media only screen and (min-width: 600px) {
+    * {
+        margin: auto 1.5em;
+        padding: 0;
+    }
+}
+
+header .title {
+    display: flex;
+    justify-content: center;
+}
+
+header,
+.ingridients,
+.directions,
+.comments {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: .12em solid #404040;
+}
+
+header ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.directions p {
+    margin-top: .8em;
+}
+
+.directions span {
+    font-weight: bold;
+}
+
+.comments .comment {
+    margin: 1em auto;
+    padding: .2em;
+    background-color: #FFFFA8;
+}
+
+.comment span {
+    display: block;
+    margin-bottom: .5em;
+    font-style: italic;
+}
+
+.comment span strong {
+    margin: 0;
+}
+
+footer {
+    width: 100%;
+}
+
+footer ul {
+    margin: 0.5em 0;
+    list-style: none;
+}
+
+footer li {
+    margin: 0;
+}
+
+footer div {
+    width: 100%;
+    margin: 0;
+    font-style: italic;
+}
+
+footer div li {
+    font-family: monospace;
+}
+
+@media screen and (min-width: 1200px) {
+    footer div ul {
+        width: 15.44%;
+    }
+    footer div li {
+        text-align: right;
+    }
+}
+
+footer a,
+img {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
