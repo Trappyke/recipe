@@ -52,10 +52,27 @@ nav ul li a {
     font-size: 1.5em;
 }
 
+nav li a:hover {
+    color: #00986f;
+    transition: all 0.4s ease 0s;
+}
+
+@media (max-width: 952px) {
+    .logo a {
+        font-size: 2em;
+        padding-left: 50px;
+    }
+    .nav ul li a {
+        font-size: 1.2em;
+    }
+}
+
+@media (max-width: 858px) {}
+
 .container {
     max-width: 600px;
     margin-top: 7%;
-    margin-left: 15%;
+    margin-left: 50%;
 }
 
 .container h1 {
